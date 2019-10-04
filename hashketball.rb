@@ -179,13 +179,6 @@ def big_shoe_rebounds
   return rebounds
 end
 
-# def player_with_most_points
-#   points = []
-#   points << game_hash[:away][:players][:points} 
-#   points << game_hash[:home][:players][:points]
-#   points.each { |key, value| puts key if value == hash.values.max }
-# end
-
 def most_points_scored
   most_points = 0
   mvp = ''
